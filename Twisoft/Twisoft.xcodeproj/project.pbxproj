@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24327F041FFBE3C60050BDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F031FFBE3C60050BDDB /* AppDelegate.swift */; };
+		24327F061FFBE3C60050BDDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F051FFBE3C60050BDDB /* ViewController.swift */; };
+		24327F091FFBE3C60050BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24327F071FFBE3C60050BDDB /* Main.storyboard */; };
+		24327F0B1FFBE3C60050BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24327F0A1FFBE3C60050BDDB /* Assets.xcassets */; };
+		24327F0E1FFBE3C60050BDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24327F0C1FFBE3C60050BDDB /* LaunchScreen.storyboard */; };
+		24327F191FFBE3C60050BDDB /* TwisoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F181FFBE3C60050BDDB /* TwisoftTests.swift */; };
+		24327F241FFBE3C60050BDDB /* TwisoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F231FFBE3C60050BDDB /* TwisoftUITests.swift */; };
+		24327F341FFBE4250050BDDB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F331FFBE4250050BDDB /* User.swift */; };
+		24327F361FFBE5660050BDDB /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F351FFBE5660050BDDB /* Tweet.swift */; };
+		24327F381FFBE66E0050BDDB /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24327F371FFBE66E0050BDDB /* TimelineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24327F151FFBE3C60050BDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24327EF81FFBE3C60050BDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24327EFF1FFBE3C60050BDDB;
+			remoteInfo = Twisoft;
+		};
+		24327F201FFBE3C60050BDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24327EF81FFBE3C60050BDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24327EFF1FFBE3C60050BDDB;
+			remoteInfo = Twisoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24327F001FFBE3C60050BDDB /* Twisoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twisoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24327F031FFBE3C60050BDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24327F051FFBE3C60050BDDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24327F081FFBE3C60050BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24327F0A1FFBE3C60050BDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24327F0D1FFBE3C60050BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24327F0F1FFBE3C60050BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24327F141FFBE3C60050BDDB /* TwisoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwisoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24327F181FFBE3C60050BDDB /* TwisoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwisoftTests.swift; sourceTree = "<group>"; };
+		24327F1A1FFBE3C60050BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24327F1F1FFBE3C60050BDDB /* TwisoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwisoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24327F231FFBE3C60050BDDB /* TwisoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwisoftUITests.swift; sourceTree = "<group>"; };
+		24327F251FFBE3C60050BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24327F331FFBE4250050BDDB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		24327F351FFBE5660050BDDB /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		24327F371FFBE66E0050BDDB /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24327EFD1FFBE3C60050BDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24327F111FFBE3C60050BDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24327F1C1FFBE3C60050BDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24327EF71FFBE3C60050BDDB = {
+			isa = PBXGroup;
+			children = (
+				24327F021FFBE3C60050BDDB /* Twisoft */,
+				24327F171FFBE3C60050BDDB /* TwisoftTests */,
+				24327F221FFBE3C60050BDDB /* TwisoftUITests */,
+				24327F011FFBE3C60050BDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24327F011FFBE3C60050BDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24327F001FFBE3C60050BDDB /* Twisoft.app */,
+				24327F141FFBE3C60050BDDB /* TwisoftTests.xctest */,
+				24327F1F1FFBE3C60050BDDB /* TwisoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24327F021FFBE3C60050BDDB /* Twisoft */ = {
+			isa = PBXGroup;
+			children = (
+				24327F031FFBE3C60050BDDB /* AppDelegate.swift */,
+				24327F051FFBE3C60050BDDB /* ViewController.swift */,
+				24327F071FFBE3C60050BDDB /* Main.storyboard */,
+				24327F0A1FFBE3C60050BDDB /* Assets.xcassets */,
+				24327F0C1FFBE3C60050BDDB /* LaunchScreen.storyboard */,
+				24327F0F1FFBE3C60050BDDB /* Info.plist */,
+				24327F331FFBE4250050BDDB /* User.swift */,
+				24327F351FFBE5660050BDDB /* Tweet.swift */,
+				24327F371FFBE66E0050BDDB /* TimelineViewController.swift */,
+			);
+			path = Twisoft;
+			sourceTree = "<group>";
+		};
+		24327F171FFBE3C60050BDDB /* TwisoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				24327F181FFBE3C60050BDDB /* TwisoftTests.swift */,
+				24327F1A1FFBE3C60050BDDB /* Info.plist */,
+			);
+			path = TwisoftTests;
+			sourceTree = "<group>";
+		};
+		24327F221FFBE3C60050BDDB /* TwisoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24327F231FFBE3C60050BDDB /* TwisoftUITests.swift */,
+				24327F251FFBE3C60050BDDB /* Info.plist */,
+			);
+			path = TwisoftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24327EFF1FFBE3C60050BDDB /* Twisoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24327F281FFBE3C60050BDDB /* Build configuration list for PBXNativeTarget "Twisoft" */;
+			buildPhases = (
+				24327EFC1FFBE3C60050BDDB /* Sources */,
+				24327EFD1FFBE3C60050BDDB /* Frameworks */,
+				24327EFE1FFBE3C60050BDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twisoft;
+			productName = Twisoft;
+			productReference = 24327F001FFBE3C60050BDDB /* Twisoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24327F131FFBE3C60050BDDB /* TwisoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24327F2B1FFBE3C60050BDDB /* Build configuration list for PBXNativeTarget "TwisoftTests" */;
+			buildPhases = (
+				24327F101FFBE3C60050BDDB /* Sources */,
+				24327F111FFBE3C60050BDDB /* Frameworks */,
+				24327F121FFBE3C60050BDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24327F161FFBE3C60050BDDB /* PBXTargetDependency */,
+			);
+			name = TwisoftTests;
+			productName = TwisoftTests;
+			productReference = 24327F141FFBE3C60050BDDB /* TwisoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24327F1E1FFBE3C60050BDDB /* TwisoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24327F2E1FFBE3C60050BDDB /* Build configuration list for PBXNativeTarget "TwisoftUITests" */;
+			buildPhases = (
+				24327F1B1FFBE3C60050BDDB /* Sources */,
+				24327F1C1FFBE3C60050BDDB /* Frameworks */,
+				24327F1D1FFBE3C60050BDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24327F211FFBE3C60050BDDB /* PBXTargetDependency */,
+			);
+			name = TwisoftUITests;
+			productName = TwisoftUITests;
+			productReference = 24327F1F1FFBE3C60050BDDB /* TwisoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24327EF81FFBE3C60050BDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "齋藤健悟";
+				TargetAttributes = {
+					24327EFF1FFBE3C60050BDDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					24327F131FFBE3C60050BDDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24327EFF1FFBE3C60050BDDB;
+					};
+					24327F1E1FFBE3C60050BDDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24327EFF1FFBE3C60050BDDB;
+					};
+				};
+			};
+			buildConfigurationList = 24327EFB1FFBE3C60050BDDB /* Build configuration list for PBXProject "Twisoft" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24327EF71FFBE3C60050BDDB;
+			productRefGroup = 24327F011FFBE3C60050BDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24327EFF1FFBE3C60050BDDB /* Twisoft */,
+				24327F131FFBE3C60050BDDB /* TwisoftTests */,
+				24327F1E1FFBE3C60050BDDB /* TwisoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24327EFE1FFBE3C60050BDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24327F0E1FFBE3C60050BDDB /* LaunchScreen.storyboard in Resources */,
+				24327F0B1FFBE3C60050BDDB /* Assets.xcassets in Resources */,
+				24327F091FFBE3C60050BDDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24327F121FFBE3C60050BDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24327F1D1FFBE3C60050BDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24327EFC1FFBE3C60050BDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24327F061FFBE3C60050BDDB /* ViewController.swift in Sources */,
+				24327F041FFBE3C60050BDDB /* AppDelegate.swift in Sources */,
+				24327F341FFBE4250050BDDB /* User.swift in Sources */,
+				24327F361FFBE5660050BDDB /* Tweet.swift in Sources */,
+				24327F381FFBE66E0050BDDB /* TimelineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24327F101FFBE3C60050BDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24327F191FFBE3C60050BDDB /* TwisoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24327F1B1FFBE3C60050BDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24327F241FFBE3C60050BDDB /* TwisoftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24327F161FFBE3C60050BDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24327EFF1FFBE3C60050BDDB /* Twisoft */;
+			targetProxy = 24327F151FFBE3C60050BDDB /* PBXContainerItemProxy */;
+		};
+		24327F211FFBE3C60050BDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24327EFF1FFBE3C60050BDDB /* Twisoft */;
+			targetProxy = 24327F201FFBE3C60050BDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24327F071FFBE3C60050BDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24327F081FFBE3C60050BDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24327F0C1FFBE3C60050BDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24327F0D1FFBE3C60050BDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24327F261FFBE3C60050BDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24327F271FFBE3C60050BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24327F291FFBE3C60050BDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = Twisoft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.Twisoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24327F2A1FFBE3C60050BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = Twisoft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.Twisoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24327F2C1FFBE3C60050BDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = TwisoftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.TwisoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twisoft.app/Twisoft";
+			};
+			name = Debug;
+		};
+		24327F2D1FFBE3C60050BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = TwisoftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.TwisoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twisoft.app/Twisoft";
+			};
+			name = Release;
+		};
+		24327F2F1FFBE3C60050BDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = TwisoftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.TwisoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twisoft;
+			};
+			name = Debug;
+		};
+		24327F301FFBE3C60050BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
+				INFOPLIST_FILE = TwisoftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saitoh0526.k.TwisoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twisoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24327EFB1FFBE3C60050BDDB /* Build configuration list for PBXProject "Twisoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24327F261FFBE3C60050BDDB /* Debug */,
+				24327F271FFBE3C60050BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24327F281FFBE3C60050BDDB /* Build configuration list for PBXNativeTarget "Twisoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24327F291FFBE3C60050BDDB /* Debug */,
+				24327F2A1FFBE3C60050BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24327F2B1FFBE3C60050BDDB /* Build configuration list for PBXNativeTarget "TwisoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24327F2C1FFBE3C60050BDDB /* Debug */,
+				24327F2D1FFBE3C60050BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24327F2E1FFBE3C60050BDDB /* Build configuration list for PBXNativeTarget "TwisoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24327F2F1FFBE3C60050BDDB /* Debug */,
+				24327F301FFBE3C60050BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24327EF81FFBE3C60050BDDB /* Project object */;
+}
